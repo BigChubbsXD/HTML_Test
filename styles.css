@@ -46,4 +46,6 @@ align-items: center;
 {
     flex:1;
     align-self:center;
+    background-color:  steelblue;
+    color: white;
 }
