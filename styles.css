@@ -51,3 +51,25 @@ background-color: lightgray;
     background-color:  steelblue;
     color: white;
 }
+
+.container2
+{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+padding: 10px;
+background-color: purple;
+
+}
+
+.item2
+{
+background-color:darkgoldenrod;
+color:peachpuff;
+padding: 20px;
+text-align: center;
+font-size: 16px;
+
+
+}
+
