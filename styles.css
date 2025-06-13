@@ -55,11 +55,10 @@ background-color: lightgray;
 .container2
 {
 display: grid;
-grid-template-columns: repeat(3, 1fr);
-gap: 10px;
+grid-template-columns: repeat(3, 1fr); /*1fr is one fractional unit, dividing space equally.*/
+gap: 10px; /*gap between grid cells.*/
 padding: 10px;
 background-color: purple;
-
 }
 
 .item2
@@ -67,9 +66,7 @@ background-color: purple;
 background-color:darkgoldenrod;
 color:peachpuff;
 padding: 20px;
-text-align: center;
+text-align: center; /*aligns the text inside the grid box.*/
 font-size: 16px;
-
-
 }
 
